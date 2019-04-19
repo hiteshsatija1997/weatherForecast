@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Roboto, Arial;
+    font-size: 0.8em;
+    color: #666;
+    overflow-y: hidden;
+  }/* You can add global styles to this file, and also import other style files */

@@ -1,0 +1,23 @@
+<div class='Card'>
+  <div class='current'>
+    <h2>{{current.city}}</h2>
+    <div>
+      <div class='visual'>
+        <div class='icon'>
+          <img src="http://openweathermap.org/img/w/{{current.icon}}.png">
+        </div>
+        {{current.description}}
+
+        <div class='temp'>
+          {{current.temp|number:'2.1-2'}}&#8451;
+        </div>
+      </div>
+      <div class='description'>
+        <div class='pressure'>{{current.pressure}}</div>
+        <div class='humidity'>{{current.humidity}}</div>
+        <div class='wind'> {{current.wind}} km/h</div>
+      </div>
+
+    </div>
+  </div>
+</div>

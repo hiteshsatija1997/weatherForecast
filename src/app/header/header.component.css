@@ -1,0 +1,26 @@
+.row {
+    display: table;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 10px;
+    /*Optional*/
+}
+
+.column {
+    display: table-cell;
+   
+    /*Optional*/
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  button{
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  

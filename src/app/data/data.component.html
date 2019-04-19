@@ -1,0 +1,24 @@
+<div class="card Row" >
+
+  <div class='date Column'>
+    {{temp.dt_txt|date:'fullDate'}}
+  </div>
+
+  <div class='image '>
+    <img src="http://openweathermap.org/img/w/{{temp.weather[0].icon}}.png">
+  </div>
+
+  <div class='Column'>
+      {{temp.weather[0].description}}
+  </div>
+
+  <div class='minmax Column'>
+    {{temp.main.temp_min/10|number:'2.1-2'}}/
+    {{temp.main.temp_max/10|number:'2.1-2'}}&#8451;</div>
+
+    <div class='humidity Column'>
+    {{temp.main.humidity}}
+
+  </div>
+
+</div>
